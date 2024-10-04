@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --primary-color: #720455;
+    --primary-color-dark: #3C0753;
+    --text-dark: #333333;
+    --text-light: #767268;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Bebas Neue", sans-serif;
+}
+
+.section__container {
+    display: grid;
+    gap: 4rem 2rem;
+    
+}
+.footer__logo    {
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-family: var(--header-font);
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer__logo span{
+    color: var(--primary-color-dark);
+}
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+.footer_socials li {
+    text-align: center;
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 1rem;
+    color: var(--text-dark);
+    border-radius: 100%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.footer__socials a {
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 1rem;
+    color: var(--text-dark);
+    border-radius: 100%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.footer__socials li:hover {
+    color: var(--white);
+    background: var(--gradient);
+}
+.footer__col .section__description {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer__col h4 {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-top: 2rem;
+}
+.footer__bar {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-align: center;
+}
+  
+  .footer__container {
+    grid-template-columns: repeat(5, 1fr);
+}
+  
+  .footer__col:nth-child(1) {
+    grid-column: 1/3;
+}
+  

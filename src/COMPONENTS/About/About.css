@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --primary-color: #720455;
+    --primary-color-dark: #3C0753;
+    --text-dark: #333333;
+    --text-light: #767268;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Bebas Neue", sans-serif;
+}
+
+.About h1{
+    font-family: var(--header-font);
+    color: var(--text-dark);
+    font-size: 4rem;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.About h1 span{
+    color: var(--primary-color);
+}
+.About h2{
+    font-family: "Bebas Neue", "sans-serif";
+    color: var(--primary-color-dark);
+    padding-top: 3rem;
+    padding-left: 20vh;
+    
+}
+.About p{
+    margin-bottom: 4rem;
+    columns: var(--text-light);
+    line-height: 1.75rem;
+    text-align: left;
+    padding-left: 20vh;
+}
+.About img{
+    position: absolute;
+    content: "";
+    max-width: 450px;
+    aspect-ratio: 1;
+   top: 105%;
+   right: 25%;
+    transform: translate(50%, 50%);
+    background-image: url("info-access.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.About .custom-engage img{
+    position: absolute;
+    content: "";
+    max-width: 450px;
+    aspect-ratio: 1;
+    top: 150%;
+    right: 25%;
+    transform: translate(50%, 50%);
+    background-image: url("custom-engage.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.About .e-commerce img{
+    position: absolute;
+    content: "";
+    max-width: 450px;
+    aspect-ratio: 1;
+    top: 190%;
+    right: 25%;
+    transform: translate(50%, 50%);
+    background-image: url("e-commerce.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.About .analysis img{
+    position: absolute;
+    content: "";
+    max-width: 450px;
+    aspect-ratio: 1;
+    top: 228%;
+    right: 25%;
+    transform: translate(50%, 50%);
+    background-image: url("analysis.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
